@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="sF8VrV" name="juce_spriteKit" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="CkdhI5" name="juce_spriteKit">
+    <GROUP id="{F4CAB038-12F3-B7C1-8EBF-163FFA4B3E03}" name="Source">
+      <FILE id="xxrnV9" name="GameScene.mm" compile="1" resource="0" file="Source/GameScene.mm"/>
+      <FILE id="ZxSpzb" name="GameScene.h" compile="0" resource="0" file="Source/GameScene.h"/>
+      <FILE id="ZggYaa" name="SpriteKitView.mm" compile="1" resource="0"
+            file="Source/SpriteKitView.mm"/>
+      <FILE id="tmwQyb" name="SpriteKitView.h" compile="0" resource="0" file="Source/SpriteKitView.h"/>
+      <FILE id="nqbWag" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="E4ZReN" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="nHBa0O" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" extraFrameworks="SpriteKit">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="juce_spriteKit"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="juce_spriteKit"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../libs/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../libs/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../libs/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../libs/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../libs/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../libs/tracktion_engine/modules/juce/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <XCODE_IPHONE targetFolder="Builds/iOS" extraFrameworks="SpriteKit">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra"/>
+        <MODULEPATH id="juce_gui_basics"/>
+        <MODULEPATH id="juce_graphics"/>
+        <MODULEPATH id="juce_events"/>
+        <MODULEPATH id="juce_data_structures"/>
+        <MODULEPATH id="juce_core"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
